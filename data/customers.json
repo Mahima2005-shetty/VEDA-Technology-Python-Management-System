@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Aarav Sharma",
+        "email": "aarav@example.com",
+        "phone": "9000000001",
+        "organization": "Sample Solutions"
+    },
+    {
+        "id": 2,
+        "name": "Ananya Rao",
+        "email": "ananya@example.com",
+        "phone": "9000000002",
+        "organization": "Demo Innovations"
+    },
+    {
+        "id": 3,
+        "name": "Rahul Kumar",
+        "email": "rahul@example.com",
+        "phone": "9000000010",
+        "organization": "Demo Technologies"
+    },
+    {
+        "id": 4,
+        "name": "Rahul Kumar",
+        "email": "rahul@example.com",
+        "phone": "9000000010",
+        "organization": "Demo Technologies"
+    }
+]

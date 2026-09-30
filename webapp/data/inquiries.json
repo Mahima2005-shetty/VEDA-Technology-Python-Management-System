@@ -1,0 +1,10 @@
+[
+    {
+        "id": 1,
+        "customer_name": "Test Customer",
+        "service": "Web Development",
+        "category": " General Inquiry",
+        "message": " I am interested in your web development service",
+        "status": "New"
+    }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Web Development",
+    "category": "Digital Services",
+    "description": "Custom web application development using modern technologies.",
+    "price": 45000,
+    "status": "Active"
+  },
+  {
+    "id": 2,
+    "name": "Python Training",
+    "category": "Training",
+    "description": "Beginner-to-intermediate Python programming training.",
+    "price": 12000,
+    "status": "Active"
+  },
+  {
+    "id": 3,
+    "name": "Mobile App Development",
+    "category": "Digital Services",
+    "description": "Custom mobile application development",
+    "price": 50000,
+    "status": "Active"
+  }
+]

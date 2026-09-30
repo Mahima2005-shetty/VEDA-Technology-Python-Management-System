@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "customer_name": "Aarav Sharma",
+        "service": "Web Development",
+        "category": "Project Inquiry",
+        "message": "Request for a business website.",
+        "status": "New"
+    },
+    {
+        "id": 2,
+        "customer_name": "Ananya Rao",
+        "service": "Python Training",
+        "category": "Training Inquiry",
+        "message": "Request for Python course details.",
+        "status": "Resolved"
+    }
+]

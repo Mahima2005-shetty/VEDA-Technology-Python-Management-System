@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "Mobile app development",
+        "category": "Digital Services",
+        "description": " Custom mobile application development",
+        "price": 50000.0,
+        "status": "Active"
+    },
+    {
+        "id": 2,
+        "name": " Mobile App Development",
+        "category": "Digital Services",
+        "description": "Custom mobile application development",
+        "price": 50000.0,
+        "status": "Active"
+    },
+    {
+        "id": 3,
+        "name": " Web Development   ",
+        "category": " Digital Services ",
+        "description": "Service",
+        "price": 45000.0,
+        "status": "Active"
+    },
+    {
+        "id": 4,
+        "name": "Python Training   ",
+        "category": "  Training     ",
+        "description": "Veda Training Tec ",
+        "price": 50000.0,
+        "status": "Active"
+    }
+]

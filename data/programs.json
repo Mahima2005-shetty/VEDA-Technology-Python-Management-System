@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Python Internship Program",
+        "category": "Internship",
+        "duration": "8 Weeks",
+        "fee": 0,
+        "status": "Open"
+    },
+    {
+        "id": 2,
+        "name": "Digital Skills Training",
+        "category": "Training",
+        "duration": "6 Weeks",
+        "fee": 8000,
+        "status": "Upcoming"
+    },
+    {
+        "id": 3,
+        "name": "Web Development Internship",
+        "category": "Internship",
+        "duration": "8 Weeks",
+        "fee": 10000.0,
+        "status": "Upcoming"
+    }
+]
