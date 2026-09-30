@@ -1,97 +1,456 @@
-# Veda Technology Management System
+\# VEDA Technology Python Management System
 
-A Python-based management application created for an internship-style task. The application uses only synthetic/local data and demonstrates Python programming concepts such as functions, modules, classes-ready modular design, lists, dictionaries, JSON file handling, validation, exception handling, search/filtering, and basic business reporting.
 
-## Features
 
-- Service management
-- Program management
-- Customer management
-- Customer/service inquiry management
-- Search and filtering
-- Status updates
-- JSON data storage
-- Basic business reports
-- Input validation and exception handling
-- Simple command-line interface
+A Python and Flask-based management system developed for a technology and digital-services organization. The application manages services, training programs, customers, service inquiries, search and filtering, and basic business reports.
 
-## Project Structure
+
+
+\## Project Objective
+
+
+
+The objective of this project is to apply Python programming concepts to a realistic technology-business scenario while implementing:
+
+
+
+\* Functions and modules
+
+\* Classes and structured records
+
+\* Lists and dictionaries
+
+\* File handling
+
+\* JSON data storage
+
+\* Input validation
+
+\* Search and filtering
+
+\* Exception handling
+
+\* Basic business reporting
+
+\* Git and GitHub
+
+\* Flask web application development
+
+
+
+\## Features
+
+
+
+\### Service Management
+
+
+
+\* Add services
+
+\* View all services
+
+\* Search services
+
+\* Update service status
+
+\* Store service information in JSON
+
+
+
+\### Program Management
+
+
+
+\* Add training and internship programs
+
+\* View programs
+
+\* Search programs
+
+\* Update program status
+
+\* Store program information in JSON
+
+
+
+\### Customer Management
+
+
+
+\* Add customer records
+
+\* View customer records
+
+\* Search customers
+
+\* Manage customer information
+
+
+
+\### Service Inquiry Management
+
+
+
+\* Create service inquiries
+
+\* View inquiries
+
+\* Search inquiries
+
+\* Update inquiry status
+
+
+
+\### Search \& Filtering
+
+
+
+\* Search services
+
+\* Search programs
+
+\* Search customers
+
+\* Search inquiries
+
+\* Filter records by relevant fields and status
+
+
+
+\### Business Reports
+
+
+
+\* View management statistics
+
+\* Display service information
+
+\* Display program information
+
+\* Display customer and inquiry summaries
+
+
+
+\### Web Application
+
+
+
+A Flask-based web interface is included for accessing the management system through a browser.
+
+
+
+\## Technologies Used
+
+
+
+\* Python
+
+\* Flask
+
+\* HTML
+
+\* CSS
+
+\* JSON
+
+\* Git
+
+\* GitHub
+
+\* VS Code / PyCharm
+
+
+
+\## Project Structure
+
+
 
 ```text
-veda_technology_python_management_system/
+
+VEDA-Technology-Python-Management-System/
+
 │
-├── main.py
-├── utils.py
-├── data_manager.py
-├── services.py
-├── programs.py
+
+├── data/
+
+│   ├── services.json
+
+│   ├── programs.json
+
+│   ├── customers.json
+
+│   └── inquiries.json
+
+│
+
+├── webapp/
+
+│   ├── app.py
+
+│   ├── templates/
+
+│   └── static/
+
+│
+
 ├── customers.py
+
+├── data\_manager.py
+
 ├── inquiries.py
+
+├── main.py
+
+├── programs.py
+
 ├── reports.py
+
+├── services.py
+
+├── utils.py
+
 ├── requirements.txt
+
 ├── README.md
-│
-└── data/
-    ├── services.json
-    ├── programs.json
-    ├── customers.json
-    └── inquiries.json
+
+└── .gitignore
+
 ```
 
-## Requirements
 
-- Python 3.10 or newer
-- VS Code or PyCharm
-- Git
-- GitHub account
 
-No third-party Python package is required.
+\## Installation
 
-## How to Run
 
-1. Open the project folder in VS Code.
-2. Open the terminal.
-3. Run:
+
+Clone the repository:
+
+
 
 ```bash
-python main.py
+
+git clone https://github.com/Mahima2005-shetty/VEDA-Technology-Python-Management-System.git
+
 ```
 
-4. Select an option from the main menu.
 
-## Data Storage
 
-All records are stored locally in JSON files under the `data` folder. The project does not connect to Veda Technology production systems or private information.
+Move into the project directory:
 
-## Demonstrated Python Concepts
 
-- Functions
-- Modules
-- Lists
-- Dictionaries
-- File handling
-- JSON
-- Exception handling
-- Input validation
-- Searching/filtering
-- Basic calculations and reporting
 
-## Example Workflow
+```bash
 
-1. Add services.
-2. Add programs.
-3. Add customers.
-4. Add customer inquiries.
-5. Search records.
-6. Update statuses.
-7. Generate a business report.
+cd VEDA-Technology-Python-Management-System
 
-## GitHub
+```
 
-Suggested repository name:
 
-`VEDA-Technology-Python-Management-System`
 
-## Disclaimer
+Create a virtual environment:
 
-This is an educational project using synthetic/sample business data. It is not an official Veda Technology internal system and does not use private production data.
+
+
+```bash
+
+python -m venv venv
+
+```
+
+
+
+Activate the virtual environment on Windows:
+
+
+
+```powershell
+
+.\\venv\\Scripts\\Activate.ps1
+
+```
+
+
+
+Install the required packages:
+
+
+
+```bash
+
+pip install -r requirements.txt
+
+```
+
+
+
+\## Run the Python Management System
+
+
+
+From the project directory:
+
+
+
+```bash
+
+python main.py
+
+```
+
+
+
+The command-line application provides options for:
+
+
+
+1\. Service Management
+
+2\. Program Management
+
+3\. Customer Management
+
+4\. Service Inquiry Management
+
+5\. Search \& Filtering
+
+6\. Business Reports
+
+
+
+\## Run the Web Application
+
+
+
+Move into the web application directory:
+
+
+
+```powershell
+
+cd webapp
+
+```
+
+
+
+Start Flask:
+
+
+
+```powershell
+
+python app.py
+
+```
+
+
+
+Open the application in a browser:
+
+
+
+```text
+
+http://127.0.0.1:5000
+
+```
+
+
+
+\## Data Storage
+
+
+
+The application uses JSON files for persistent data storage. This allows service, program, customer, and inquiry records to be stored and retrieved without requiring a separate database server.
+
+
+
+\## Validation and Error Handling
+
+
+
+The application includes validation for user input and handles invalid values such as incorrect numeric input and missing records.
+
+
+
+\## Learning Outcomes
+
+
+
+This project demonstrates practical implementation of:
+
+
+
+\* Python programming
+
+\* Modular programming
+
+\* Data structures
+
+\* File handling
+
+\* JSON processing
+
+\* Validation
+
+\* Exception handling
+
+\* Flask web development
+
+\* Git version control
+
+\* GitHub project management
+
+
+
+\## Internship Task Deliverables
+
+
+
+\* Python management application
+
+\* Service management module
+
+\* Program management module
+
+\* Customer management module
+
+\* Service inquiry management
+
+\* Search and filtering functionality
+
+\* Business reports
+
+\* JSON data storage
+
+\* Flask web application
+
+\* README documentation
+
+\* GitHub repository
+
+
+
+\## Author
+
+
+
+\*\*Mahima\*\*
+
+
+
+GitHub:
+
+https://github.com/Mahima2005-shetty
+
+
+
+\## Repository
+
+
+
+https://github.com/Mahima2005-shetty/VEDA-Technology-Python-Management-System
+
+
+
